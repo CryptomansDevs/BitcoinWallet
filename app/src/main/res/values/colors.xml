@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B183E</color>
+    <color name="colorPrimaryDark">#13112D</color>
+    <color name="colorAccent">#5BB3EB</color>
+    <color name="colorAccentPressed">#378FC8</color>
+
+    <color name="white">#FFFFFe</color>
+    <color name="black">#000000</color>
+    <color name="black_nonselected">#b2b2b2</color>
+
+
+
+    <color name="dialog_title_back">#576fd4</color>
+    <color name="dialog_title_back_pressed">#303F9F</color>
+    <color name="hint">#34000000</color>
+    <color name="text_color">#8e8e8e</color>
+    <color name="text_color_light">#b2b2b2</color>
+    <color name="item_back">#f0f2f3</color>
+    <color name="actionpressed_back">#f0f2f3</color>
+
+    <color name="red">#FF9800</color>
+    <color name="green">#4CAF50</color>
+
+    <color name="mainAccentColor">@color/colorAccent</color>
+    <color name="pbBack">#10000000</color>
+
+    <color name="disabled_color">#73FFFFFe</color>
+
+    <color name="onboadingback_1">#26C6DA</color>
+    <color name="onboadingback_2">#42A5F5</color>
+    <color name="onboadingback_3">#5C6BC0</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+    </integer-array>
+
+    <color name="action_bar_color">@color/colorPrimary</color>
+
+
+    <color name="page_back_color">#e4e4e4</color>
+
+
+
+</resources>

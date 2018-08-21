@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:id="@+id/mainParent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        tools:src="@drawable/ic_settings_black_24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvChangeBalance"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-medium"
+        tools:text="+0.00000032BTC"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvChangeBalanceInUsd"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvChangeBalance"
+        android:fontFamily="sans-serif-medium"
+        tools:text="+0.00000032BTC"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvSendOrReceived"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_toLeftOf="@id/tvChangeBalance"
+        android:textColor="@color/colorPrimary"
+        tools:text="Send"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvAddresses"
+        android:layout_toRightOf="@id/ivIcon"
+        tools:text="dkslfnkjwernfwr"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@id/tvChangeBalance"
+        android:layout_below="@id/tvSendOrReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_toRightOf="@id/ivIcon"
+        tools:text="dkslfnkjwernfwr"
+        android:textColor="@color/text_color"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@id/tvChangeBalance"
+        android:layout_below="@id/tvAddresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_toLeftOf="@id/tvChangeBalance"
+        android:layout_below="@id/tvStatus"
+        android:textColor="@color/text_color_light"
+        tools:text="102:30:30"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/txsId"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_toLeftOf="@id/tvChangeBalance"
+        android:layout_below="@id/tvTime"
+        android:textColor="@color/text_color_light"
+        tools:text="102:30:30"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:maxLines="1"
+        android:textSize="10sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/text_color"/>
+
+</RelativeLayout>

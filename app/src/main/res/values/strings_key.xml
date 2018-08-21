@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="facebook_app_id">28744930048274</string>
+    <string name="fb_login_protocol_scheme">fb287000987048274</string>
+
+    <string translatable="false" name="email_feedback">replybtcwallet@gmail.com</string>
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <wallet.bitcoin.bitcoinwallet.helper.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" />
+
+    <RelativeLayout
+        android:id="@+id/llPointers"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/ivLeft"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="62dp"
+            android:layout_height="8dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/tutorial_points_back">
+
+            <View
+                android:id="@+id/indicator"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_10dp" />
+
+            <View
+                android:id="@+id/vDots"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dots" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvDone"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:text="@string/start"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:textColor="@color/mainAccentColor" />
+
+        <ImageView
+            android:id="@+id/ivRight"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlProgress"
+        android:visibility="gone"
+        android:background="@color/pbBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_centerInParent="true"
+            android:layout_width="44dp"
+            android:layout_height="44dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<resources>
+    <string name="wallet_name">Bitcoin Кошелек</string>
+
+    <string name="onboarding_first_title">Быстрая отправка\nи получение биткоинов</string>
+    <string name="onboarding_first_descr">Отправляйте биткоины на несколько адресов одной транзакцией!</string>
+
+    <string name="onboarding_second_title">Детальная информация о транзакциях</string>
+    <string name="onboarding_second_descr">Просматривайте все транзакции кошелька, а также транзакции по каждому вашему адресу.</string>
+
+    <string name="onboarding_third_title">Надежная защита</string>
+    <string name="onboarding_third_descr">SSH-защита\nвход по PIN-коду\nВы владеете вашими публичными и приватными ключами\nMnemonic-code поддержка</string>
+
+    <string name="start">Поехали!</string>
+    <string name="name">Адрес получателя</string>
+    <string name="enter_name">Введите логин, минимум 5 символов</string>
+
+    <string name="pass"></string>
+    <string name="enter_pass">Введите пароль, минимум 6 символов</string>
+
+    <string name="short_name">Имя не может быть меньше 5 символов</string>
+    <string name="short_pass">Пароль не может быть меньше 6 символов</string>
+
+    <string name="or_login">Или Логин</string>
+    <string name="or_reg">или Регистрация</string>
+
+    <string name="reg">Регистрация</string>
+    <string name="login">Логин</string>
+    <string name="send_from_wallet">Отправка с кошелька</string>
+    <string name="amount">Сумма</string>
+    <string name="add_recepient">Добавить получателя</string>
+
+
+    <string name="login_fb">Войти через Фейсбук</string>
+    <string name="reg_fb">Войти через Фейсбук</string>
+
+    <string name="transactions">Транзакции</string>
+    <string name="main">Главная</string>
+    <string name="send">Отправить</string>
+    <string name="receive">Получить</string>
+    <string name="error_pin">Пин-код неверный</string>
+    <string name="settings">Настройки</string>
+
+    <string name="local_cur">Валюта</string>
+    <string name="local_cur_descr">Выберите валюту</string>
+
+    <string name="secure">Безопасность</string>
+
+    <string name="set_pin">Защитите свой кошелек</string>
+    <string name="set_pin_descr">Защитите свой кошелек с помощью пин-код</string>
+
+    <string name="actions">Действия</string>
+
+    <string name="xpriv_title">xpriv (ExtendedPrivateKey)</string>
+    <string name="mnemonic_title">Mnemonic code</string>
+    <string name="mnemonic_code">Мой мнемоник код</string>
+    <string name="mnemonic_code_descr">Используйте мнемоник код для восстановления всех ваших адресов сразу</string>
+    <string name="mnemonic_info">Запшите мнемоник код чтобы всегда иметь доступ ко всем вашим адресам через любой кошелек или blockchain api.</string>
+
+    <string name="enter_mnemonic_code">Введите мнемоник код..</string>
+    <string name="import_mnemonic_code">Импортировать мнемоник код</string>
+    <string name="import_mnemonic_code_descr">Импорт адресов с использованием мнемоник кода</string>
+    <string name="import_mnemonic_info">Импорт нового мнемоник кода перезапишет все ваши текущие адреса. Это может занять некоторое время от нескольких секунд до 10 минут.</string>
+    <string name="wallet_imported">мнемоник код импортирован</string>
+    <string name="wallet_imported_descr">Все адреса, связанные с этим мнемоник кодом, успешно импортировались.</string>
+
+    <string name="share">Поделиться приложением</string>
+
+    <string name="send_review">Отправить отзыв</string>
+
+    <string name="about">Про нас</string>
+
+    <string name="about_app">Про приложение</string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="support">Поддержка</string>
+
+    <string name="account">Аккаунт</string>
+
+    <string name="logout">Вылогиниться</string>
+
+    <string name="remove_address">Удалить адрес</string>
+    <string name="remove_address_descr">Вы действительно хотите удалить адрес из кошелька?</string>
+
+
+    <string name="enter_old_pin">Введите старый PIN</string>
+    <string name="enter_new_pin">Введите новый PIN</string>
+    <string name="confirm_new_pin">Подтвердите новый PIN</string>
+    <string name="not_matching_pins">Pin коды не совпадают</string>
+    <string name="pin_changed">PIN код изменен.</string>
+
+    <string name="logout_descr_dlg">Вылогиниться со своего аккаунта?</string>
+    <string name="total_funds">Общие средства</string>
+
+    <string name="confirmed">Подтверждено</string>
+    <string name="not_confirmed">Не подтверждено</string>
+
+    <string name="sent">Отправлено</string>
+    <string name="received">Получено</string>
+    <string name="no_txs">Нету транзакций по этому адресу</string>
+    <string name="no_txs_all">Нету транзакций по кошельку</string>
+    <string name="copied">Скопировано</string>
+
+    <string name="share_chooser_title">Поделиться через..</string>
+    <string name="share_text">Я нашел удобный биткоин кошелек! Вот, зацени - https://play.google.com/store/apps/details?id=wallet.bitcoin</string>
+    <string name="balance">Баланс</string>
+
+    <string name="publicKey">Public key</string>
+    <string name="privateKey">Private key</string>
+    <string name="address">адрес</string>
+
+    <string name="ok">OK</string>
+    <string name="import_str">Импорт адресса</string>
+    <string name="add">Добавить адресс</string>
+    <string name="import_address">Импорт адреса</string>
+    <string name="enterprivateKey">Введите приватный ключ адреса</string>
+
+    <string name="from_wallet">Сервер решит, какие ваши адреса будут участвовать в этой транзакции. Все оставшиеся деньги будут возвращены на вновь сгенерированный адрес.</string>
+    <string name="from_address">Деньги будут сняты с выбранного вами адреса. Вы полностью контролируете детали транзакции</string>
+    <string name="leftover_return_to_new_address">Остаток будет возвращен вновь созданному адресу</string>
+    <string name="leftover_return_to_this_address">Остаток будет возвращен на этот адрес</string>
+    <string name="remove">Удалить</string>
+
+    <string name="scan_helper">Словите QR-code с помощью камеры</string>
+    <string name="need_permission">Пожалуйста, дайте нам разрешение на использование камеры</string>
+    <string name="need_permission_descr">Чтобы работал сканер, нам нужно разрешение на использование камеры :)</string>
+    <string name="from">Списать со счета:</string>
+
+    <string name="low">Low</string>
+    <string name="optimal">Optimal</string>
+    <string name="fast">High</string>
+    <string name="fee">Комиссия:</string>
+    <string name="satoshi_per_byte">сатоши за байт</string>
+
+    <string name="txs_has_been_sent">Транзакция была отправлена в блокчейн</string>
+    <string name="txs_id">ID транзакции:</string>
+
+    <string name="tip">Подсказка</string>
+    <string name="tip_1">Вы можете импортировать свои текущие адреса в наш кошелек, нажав кнопку \"Импорт \"\nИли вы можете импортировать мнемонический код в настройках</string>
+    <string name="understand">Понятно</string>
+
+    <string name="start_send_btc">Начните отправлять биткоины!</string>
+    <string name="start_send_btc_descr">Чтобы начать отправку биткоинов, купите биткоин или поделитесь своим адресом btc. Вы можете получать биткоины из любого другого кошелька.</string>
+    <string name="buy_btc">Купить биткоины</string>
+    <string name="show_btc_address">показать биткоин-адрес</string>
+
+    <string name="exmo_title">Exmo</string>
+    <string name="exmo_title_descr">Exmo - самый простой способ получить биткоины. Международный обмен валют</string>
+    <string name="str_goto">Перейти</string>
+
+    <string name="binance_title">Binance</string>
+    <string name="binance_title_descr">Один из старейших международных межплатформенных обменов криптовалютами. Binance - Exchange The World.</string>
+
+    <string name="youbit_title">Yobit.net</string>
+    <string name="youbit_title_descr">Yobit - лучший сервис для покупки или продажи биткоинов, ethereum, litecoin. На этом обмене больше всего криптовалютных пар</string>
+
+    <string name="game_title">Выиграй 0,1 BTC!</string>
+    <string name="game_till_the_end">До конца розыгрыша</string>
+    <string name="game_rules">Оцени кошелек на Google Play и напиши отзыв и получи свой номер! Победитель появится в настройках приложения.</string>
+    <string name="rate_us">Оцени нас и получи бесплатный билет!</string>
+    <string name="full_game_rules">Прочитай правила розыгрыша</string>
+    <string name="thanks">Спасибо за участие! К сожалению в этот раз Вам не повезло. Но мы очень благодарным Вам за участие.</string>
+
+</resources>

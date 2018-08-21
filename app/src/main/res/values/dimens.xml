@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="sp24">24sp</dimen>
+    <dimen name="sp20">20sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp14">14sp</dimen>
+
+    <dimen name="edittextBorder">4dp</dimen>
+    <dimen name="ab_name_marginleft_mainactivity">18dp</dimen>
+
+</resources>

@@ -1,0 +1,176 @@
+<resources>
+    <string name="wallet_name">Bitcoin Wallet</string>
+
+    <string name="onboarding_first_title">Quickly send\nand receive btc</string>
+    <string name="onboarding_first_descr">Send to one or multiple addresses with just one transaction!</string>
+
+    <string name="onboarding_second_title">Detailed transaction info</string>
+    <string name="onboarding_second_descr">View all your wallet\'s transactions, as well as every addresses transactions.</string>
+
+    <string name="onboarding_third_title">High protection</string>
+    <string name="onboarding_third_descr">SSH-protection\nPIN-code entrance\nYou are in control of your public and private keys\nMnemonic-code support</string>
+
+    <string name="start">Start</string>
+    <string name="name">Receiver\'s address</string>
+    <string name="enter_name">Enter your name or email here, minimum 5 symbols</string>
+
+    <string name="pass"></string>
+    <string name="enter_pass">Enter your password here, minimum 6 symbols</string>
+
+    <string name="short_name">Name can not be less then 5 symbols</string>
+    <string name="short_pass">Password can not be less then 6 symbols</string>
+
+    <string name="or_login">Or Login</string>
+    <string name="or_reg">Or Register</string>
+
+    <string name="reg">Register</string>
+    <string name="login">Login</string>
+    <string name="send_from_wallet">Smart send from wallet</string>
+    <string name="amount">Amount</string>
+    <string name="add_recepient">Add recipient</string>
+
+
+    <string name="login_fb">Enter via Facebook </string>
+    <string name="reg_fb">Enter via Facebook </string>
+
+    <string name="transactions">Transactions</string>
+    <string name="main">Main</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="error_pin">Your pin is not valid</string>
+    <string name="settings">Settings</string>
+
+    <string name="local_cur">Local currency</string>
+    <string name="local_cur_descr">Choose main currency</string>
+
+    <string name="secure">Security</string>
+
+    <string name="set_pin">Secure your wallet</string>
+    <string name="set_pin_descr">Secure your wallet by setting pin code</string>
+
+    <string name="actions">Actions</string>
+
+    <string name="xpriv_title">xpriv (ExtendedPrivateKey)</string>
+    <string name="mnemonic_title">Mnemonic code</string>
+    <string name="mnemonic_code">My mnemonic code</string>
+    <string name="mnemonic_code_descr">Use this code to recover all your addresses at once</string>
+    <string name="mnemonic_info">Please, write down your mnemonic code, in order to always have an access to all your addresses via any wallet or blockchain api. Do not show your private key to anyone, so your money would stay safe.</string>
+
+    <string name="enter_mnemonic_code">Enter mnemonic code..</string>
+    <string name="import_mnemonic_code">Import mnemonic code</string>
+    <string name="import_mnemonic_code_descr">Import addresses using mnemonic code</string>
+    <string name="import_mnemonic_info">Importing new mnemonic code will override all your current addresses. It can take some time to import, be patient.</string>
+    <string name="wallet_imported">Mnemonic code imported</string>
+    <string name="wallet_imported_descr">All addresses connected with this mnemonic code are imported successfully.</string>
+
+    <string name="share">Share app</string>
+
+    <string name="send_review">Send Review</string>
+
+    <string name="about">About</string>
+
+    <string name="about_app">About App</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="support">Support</string>
+
+    <string name="account">Account</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="remove_address">Remove Address</string>
+    <string name="remove_address_descr">Do you really want to remove this address from wallet?</string>
+
+
+    <string name="enter_old_pin">Enter old PIN</string>
+    <string name="enter_new_pin">Enter New PIN</string>
+    <string name="confirm_new_pin">Confirm new PIN</string>
+    <string name="not_matching_pins">Pin codes do not match</string>
+    <string name="pin_changed">PIN code changed</string>
+
+    <string name="logout_descr_dlg">Logout from account? We will clean all cache for your account on the device.</string>
+    <string name="total_funds">Total funds</string>
+
+    <string name="confirmed">Confirmed</string>
+    <string name="not_confirmed">Not confirmed</string>
+
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+    <string name="no_txs">No transactions on this address</string>
+    <string name="no_txs_all">No transactions on your wallet</string>
+    <string name="copied">Copied</string>
+
+    <string name="share_chooser_title">Share via</string>
+    <string name="share_text">I found nice and protected-proofed bitcoin wallet! Please, take a look - https://play.google.com/store/apps/details?id=wallet.bitcoin</string>
+    <string name="balance">Balance</string>
+
+    <string name="publicKey">Public key</string>
+    <string name="privateKey">Private key</string>
+    <string name="address">Address</string>
+    <string name="copy">Copy address</string>
+    <string name="txs_copied">Transaction id copied</string>
+    <string name="address_details">Address details</string>
+
+    <string name="ok">OK</string>
+    <string name="import_str">Import Address</string>
+    <string name="add">Add Address</string>
+    <string name="import_address">Import address</string>
+    <string name="enterprivateKey">Enter address\'s private key</string>
+
+    <string name="from_wallet">Recommended. Server will decide what your addresses would take part in this transaction. All leftower money would be returned to newly generated address.</string>
+    <string name="from_address">Money will be withdrown from address of your choosing. You are in full control of transaction details</string>
+    <string name="leftover_return_to_new_address">Leftover would be returned to newly generated address</string>
+    <string name="leftover_return_to_this_address">Leftover would be returned to this address</string>
+    <string name="remove">Remove</string>
+
+    <string name="scan_helper">Catch QR-code with camera</string>
+    <string name="need_permission">Please, give us camera permission</string>
+    <string name="need_permission_descr">To run qr scanner app we need camera permission :)</string>
+    <string name="from">Make payment from:</string>
+
+    <string name="low">low</string>
+    <string name="optimal">optimal</string>
+    <string name="fast">fast</string>
+    <string name="fee">Fee:</string>
+    <string name="satoshi_per_byte">satoshi per byte</string>
+
+    <string name="txs_has_been_sent">Transaction has been sent to blockchain!</string>
+    <string name="txs_id">Transaction ID:</string>
+
+    <string name="tip">Tip</string>
+    <string name="tip_1">You can import your current addresses into our wallet by pressing \"Import\" button\nOr you can import mnemonic code in settings</string>
+    <string name="understand">Understand</string>
+
+    <string name="start_send_btc">Start sending bitcoins!</string>
+    <string name="start_send_btc_descr">To start sending bitcoin, buy Bitcoin, or share your btc address. You can receive bitcoins from any other wallet of service.</string>
+    <string name="buy_btc">Buy bitcoin</string>
+    <string name="show_btc_address">show bitcoin-address</string>
+
+    <string name="exmo_title">Exmo</string>
+    <string name="exmo_title_descr">Exmo - the simplest way to get bitcoins. International exchange of currencies</string>
+    <string name="str_goto">GO</string>
+
+    <string name="binance_title">Binance</string>
+    <string name="binance_title_descr">One of the oldest international multi-language cryptocurrency exchange. Binance - Exchange The World.</string>
+
+    <string name="youbit_title">Yobit.net</string>
+    <string name="youbit_title_descr">Yobit - the best service for buying or selling bitcoins, ethereum, litecoin. On this exchange, most of all crypto-currency pairs</string>
+
+
+    <string  name="game_title">Win 0,1 BTC!</string>
+    <string  name="game_till_the_end">Till the end of game</string>
+    <string  name="game_rules">Rate the wallet and write review on Google Play and get free ticket! You can view winners after deadline is reached in app settings menu</string>
+    <string  name="rate_us">Rate and Get the ticket!</string>
+    <string  name="full_game_rules">Read full game rules</string>
+    <string  name="thanks">Thanks for participating! Unfortunately your ticket is not the winning one. But we appreciate your efforts, thanks!</string>
+
+    <plurals translatable="false" name="day">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <plurals translatable="false" name="hours">
+        <item quantity="one">hour</item>
+        <item quantity="other">hours</item>
+    </plurals>
+
+</resources>
